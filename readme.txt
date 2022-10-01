@@ -16,7 +16,7 @@ cd libgraph-1.0.2
 
 ./configure --disable-guile
 
-make 
+make -j $(nproc)
 
 sudo make install
 
